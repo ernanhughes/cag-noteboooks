@@ -1,4 +1,16 @@
-# CAG 
+# CAG: Don't Do RAG: When Cache-Augmented Generation is All You Need for Knowledge Tasks
+
+This repo is the supporting code for this post: 
+[CAG: Cache-Augmented Generation](http://programmer.ie/post/cag/)
+
+Couple of notebooks
+
+| Notebook | Description |
+| ---- | ---- |
+| [CAG example](notebooks/cag.ipynb) | This is a complete example implementation of CAG |
+| [Token count using tiktoken](notebooks/token_count_tiktoken.ipynb)  | Token count using tiktoken (will give a good enough token count) |
+| [Token count using the model](notebooks/token_count_llama.ipynb)  | Toke count example using  a model |
+| [Original Code](notebooks/kvcache.ipynb) | The original kv code form the paper  |
 
 
 ## Setup 
@@ -38,4 +50,5 @@ Next we install the requirements file
 ```Bash
 pip install -r .\requirements.txt
 ```
+
 
