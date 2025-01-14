@@ -1,0 +1,18 @@
+#jupyter
+ipykernel
+
+#ollama
+requests
+
+# hugging face
+tiktoken
+accelerate
+flash-attention
+
+
+hf_transfer
+ipywidgets
+huggingface_hub
+transformers[sentencepiece]
+sentencepiece
+python_dotenv
